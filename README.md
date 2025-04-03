@@ -10,6 +10,12 @@ This Chat app can answer kusto queries in conversational manner. In the backend,
 
 ## 3. Setup environment
 
+```bash
+az login
+```
+
+Current code uses Az CLI authentication for connection to kusto, so perform the above step before running the app.
+
 Clone the repo, activate virtual environment and install dependencies for client and server:
 
 ```bash

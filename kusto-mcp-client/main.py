@@ -72,6 +72,7 @@ class MCPClient():
             messages=self._manage_context(),
             tools=available_tools,
             tool_choice="auto",
+            # response_format=
         )
         message = response.choices[0].message
         self.conversation_context.append(message)
